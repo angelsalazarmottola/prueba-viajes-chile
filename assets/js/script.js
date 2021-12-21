@@ -18,9 +18,9 @@ $(".texto-footer").hover(function(){
 $(window).scroll(function(){
     if( $(this).scrollTop() > 100){
         	$("nav").removeClass('bg-transparent');
-            $("nav").addClass('bg-primary');
+            $("nav").addClass('bg-secondary');
     }else{
-        $("nav").removeClass('bg-primary');
+        $("nav").removeClass('bg-secondary');
         $("nav").addClass("bg-transparent");
     }
 })
