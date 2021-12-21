@@ -29,6 +29,29 @@ h1, h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.wallpaper {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wallpaper-1 {
+    background-image: url('../img/card1.jpg');
+}
+
+.wallpaper-2 {
+    background-image: url('../img/card2.jpg');
+}
+
+.wallpaper-3 {
+    background-image: url('../img/card3.jpg');
+}
+
+.wallpaper-4 {
+    background-image: url('../img/card4.jpg');
+}
+
 footer h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
