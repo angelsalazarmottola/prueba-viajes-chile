@@ -13,3 +13,14 @@ $('h2').click(function () {
 $(".texto-footer").hover(function(){
     $(this).html("<h3> Encuéntranos en nuestras redes sociales! <h3/>");
     });
+
+
+$(window).scroll(function(){
+    if( $(this).scrollTop() > 100){
+        	$("nav").removeClass('bg-transparent');
+            $("nav").addClass('bg-primary');
+    }else{
+        $("nav").removeClass('bg-primary');
+        $("nav").addClass("bg-transparent");
+    }
+})
