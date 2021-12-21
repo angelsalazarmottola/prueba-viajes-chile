@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:0%;
+    padding:0%;
+    background-color: black;
+}
+
+
+.navbar {
+    position: absolute;
+    /*z-index: 1;*/
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.rounded-0 i {
+    font-size: 27px;
+    color: #ffffff;
+    padding: 1px;
+}
+
+.info1 p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+footer a {
+    color: #ffffff;
+}
